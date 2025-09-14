@@ -1,0 +1,82 @@
+.contact.page-container.card {
+  max-width: 600px;       /* keep the contact card narrower */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Page heading & intro */
+.contact h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto 2rem;  /* centers the form inside the card */
+  max-width: 600px;     /* prevents full-stretch look */
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Send button */
+.contact-form button {
+  background: var(--primary, #0077cc);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: var(--primary-dark, #005fa3);
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #0077cc;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #005fa3;
+}

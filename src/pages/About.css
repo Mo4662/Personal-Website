@@ -1,0 +1,124 @@
+.about {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Intro section */
+.about-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* centers image + text as a unit */
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left; /* keeps paragraph text left-aligned */
+}
+
+.about-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Skills list */
+.about-skills {
+  margin-bottom: 2rem;
+}
+
+.about-skills h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* center skill pills as a group */
+}
+
+.about-skills li {
+  display: inline-block;
+  margin: 0.3rem;
+  background: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Resume button */
+.about-resume {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.about-resume .btn {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.about-resume .btn:hover {
+  background: var(--primary-dark);
+}
+
+/* Tech stack */
+.about-tech {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tech-icons svg {
+  color: var(--primary);
+  transition: transform 0.2s, color 0.2s;
+}
+
+.tech-icons svg:hover {
+  transform: scale(1.2);
+  color: var(--primary-dark);
+}
+
+/* Timeline */
+.about-extra {
+  margin-top: 3rem;
+  text-align: left; /* keep body text readable */
+}
+
+.about-extra h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+
+
+.about-resume {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.about-resume .btn {
+  background: var(--primary, #0077cc);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.about-resume .btn:hover {
+  background: var(--primary-dark, #005fa3);
+}
