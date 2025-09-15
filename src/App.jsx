@@ -11,7 +11,7 @@ import Blog from './pages/Blog'
 import Footer from './components/Footer'
 import BlogPost from './components/BlogPost'
 import ProjectCard from './components/ProjectCard'
-import ProjectDetail from './pages/ProjectDetails'
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

@@ -1,0 +1,103 @@
+.keeper-header {
+  background: #f5ba13;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+.keeper-footer {
+  text-align: center;
+  padding: 10px;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.create-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.create-area input,
+.create-area textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.create-area button {
+  background: #f5ba13;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.note {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note h1 {
+  font-size: 1.2rem;
+}
+
+.note button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  opacity: 0.8;
+}
+
+/* Keeper mini-header */
+.keeper-header {
+  background: #f5ba13;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 20px;
+}
+
+.clear-notes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clear-notes button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #e63946;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-notes button:hover {
+  background: #c71c30;
+}
+
+
+

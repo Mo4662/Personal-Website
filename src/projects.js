@@ -5,16 +5,16 @@ const projects = [
     title: "React Calculator",
     description: "A simple calculator built in React.",
     image: "/images/calc.png",
-    demo: "https://yourdemo.com/calc",
+    demo: "/projects/calc", // internal demo link
     repo: "https://github.com/you/calc"
   },
   {
-    id: "todo",
-    title: "Todo App",
-    description: "A todo list with local storage support.",
-    image: "/images/todo.png",
-    demo: "https://yourdemo.com/todo",
-    repo: "https://github.com/you/todo"
+    id: "keeper",
+    title: "Keeper App",
+    description: "A React clone of Google Keep for managing notes.",
+    image: "/images/keeper.png",
+    demo: "/projects/keeper", // internal demo link
+    repo: "https://github.com/you/keeper"
   }
 ]
 
